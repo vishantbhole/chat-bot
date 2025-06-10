@@ -13,6 +13,7 @@ import reactor.core.publisher.Flux;
 @RestController
 public class AIChatController {
 
+    
     private final ChatClient chatClient;
 
     @Autowired
